@@ -1,0 +1,43 @@
+body,
+
+html {
+	width: 100%;
+	height: 100%;
+	font-family: 'DynaPuff', cursive;
+  	background: url(https://i.pinimg.com/originals/0c/d3/b0/0cd3b00569313bc426a0fe7908af8856.jpg) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+h1 {
+	font-size: 5rem;
+	color: darkmagenta;
+	text-transform: uppercase;
+}
+
+.buffer {
+	height: 20rem;
+}
+
+.btn {
+	font-weight: 700;
+	border-radius: 300px;
+	text-transform: uppercase;
+}
+
+.btn-info {
+	background-color: mediumpurple;
+	border-color: mediumpurple;
+}
+
+.btn-info:hover {
+	background-color: seagreen;
+	border-color: seagreen;
+	border-width: 4px;
+}
+
+.btn-xl {
+	padding: 1rem 2rem;
+}
